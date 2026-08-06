@@ -1,8 +1,6 @@
 """
 STEP 2 -- Hit every whitelisted endpoint once, save each raw JSON.
 
-Run AFTER imd_01_get_token.py has produced imd_token.json.
-
 For each of the 9 whitelisted endpoints:
     1. GET the endpoint with X-API-KEY + Bearer token
     2. Print HTTP status and first 400 chars of response
@@ -10,9 +8,7 @@ For each of the 9 whitelisted endpoints:
     4. Print PASS/FAIL summary at the end
 
 We call each endpoint WITHOUT query parameters first, because the docs
-show every endpoint's cURL example with no parameters. If a specific
-endpoint requires parameters, IMD will return an error message telling
-us which ones -- we'll add those in Step 3.
+show every endpoint's cURL example with no parameters
 
 Usage: python imd_02_hit_all_endpoints.py
 """

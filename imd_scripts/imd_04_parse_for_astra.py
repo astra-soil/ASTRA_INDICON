@@ -2,12 +2,6 @@
 STEP 4 (v2) -- Parse Jammu-City forecast from cityforecastloc and compute
               p_t for the ASTRA Algorithm 1.
 
-v2 fix: added IMD's official rainfall-intensity vocabulary (very light /
-light / moderate / rather heavy / heavy / very heavy / extremely heavy)
-which the v1 mapping missed. "Moderate rain" alone now maps correctly to
-a high p_t because IMD defines "moderate" as 7.6-35.5 mm/day, which
-already exceeds the paper's 10 mm threshold.
-
 Run: python imd_04_parse_for_astra.py
 """
 

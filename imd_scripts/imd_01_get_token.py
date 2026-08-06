@@ -1,7 +1,5 @@
 """
 STEP 1 -- Get a JWT token from IMD.
-Run this first. Token is cached for 1 hour in imd_token.json.
-
 Usage: python imd_01_get_token.py
 """
 

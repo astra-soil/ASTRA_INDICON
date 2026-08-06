@@ -1,11 +1,6 @@
 """
 STEP 3 -- Inspect one full record from the two endpoints ASTRA actually
 consumes: cityforecastloc (7-day forecast) and aws_data (real-time station).
-
-Also filter for J&K / Jammu region so we can see what's available near
-the study region (approx 32.28 N, 74.75 E, near Jammu city).
-
-Run AFTER imd_02_hit_all_endpoints.py.
 Usage: python imd_03_inspect.py
 """
 
@@ -46,7 +41,7 @@ def find_near_jammu(name, data):
         dist_val  = str(row.get("DISTRICT", row.get("District", row.get("State_District", "")))).upper()
         stn_val   = str(row.get("STATION", row.get("Station", row.get("Station_Name", "")))).upper()
         if ("JAMMU" in state_val or "JAMMU" in dist_val or "JAMMU" in stn_val
-                or "KASHMIR" in state_val):
+                or "KASHMIR" in state_val or "AKHNOOR" in stn_val):
             matches.append(row)
 
     print(f"Found {len(matches)} J&K/Jammu-area records.")
