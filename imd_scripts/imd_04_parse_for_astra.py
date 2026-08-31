@@ -160,4 +160,4 @@ for lbl, mk, ik, fk in day_keys:
     p  = phrase_to_p_rain(ph)
     print(f"{lbl:<7} {str(mx):>5} {str(mn):>5}  {p:>.2f}  {ph[:50]}")
 
-print("\nDone. Paste this output back to Claude.")
+print("\nDone.")
