@@ -100,5 +100,4 @@ for name, status, note in results:
 ok = sum(1 for _,s,_ in results if s == "OK")
 print(f"\n{ok}/{len(ENDPOINTS)} endpoints returned JSON.")
 print(f"Raw JSON dumps in ./{CAPTURE_DIR}/")
-print("\nNext: paste the SUMMARY block back to Claude and we'll pick which")
 print("endpoint(s) to parse for the paper.")
