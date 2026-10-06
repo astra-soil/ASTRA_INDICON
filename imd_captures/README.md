@@ -1,9 +1,9 @@
-# IMD raw response captures — 04 August 2026
+# IMD(INDIA Metereological Department) raw response captures — 04 August 2026
 
 This directory holds the raw JSON responses returned by IMD's live API
 endpoints on 04 August 2026, referenced by Section IV-E of the paper.
 
-**Files to place here** (author will commit before repo goes public):
+**Files:
 
 - `cityforecastloc.json` — full response of
   `GET https://api.imd.gov.in/api/v1/cityforecastloc`
