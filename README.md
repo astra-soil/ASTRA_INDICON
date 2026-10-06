@@ -1,11 +1,11 @@
-# ASTRA — INDICON 2026 reproducibility bundle
+# ASTRA reproducibility bundle
 
 **Anonymised repository for double-blind review.** Full author identity, institutional affiliation, and acknowledgements restored at camera-ready.
 
 This repository accompanies the paper:
 
 > **ASTRA: An Explainable Edge-and-App Decision Support Architecture for Water and Fertiliser Optimisation in Indian Smallholder Agriculture**
-> Anonymous submission, IEEE INDICON 2026 (Paper #1430)
+> Anonymous submission
 
 It contains everything a reviewer needs to independently reproduce the numerical constants and figures reported in **Section IV (Indoor Bench Characterisation)** and the **live IMD-endpoint integration of Section IV-E**.
 
@@ -129,6 +129,3 @@ For reviewers who do not have their own IMD credentials: the raw JSON captured o
 
 ---
 
-## License
-
-Data and code released under CC-BY-4.0 for the data and MIT for the code, pending camera-ready.
